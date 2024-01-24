@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Square module."""
 
+
 class Square:
     """Defines a square."""
 
@@ -8,8 +9,7 @@ class Square:
         """Constructor.
 
         Args:
-            size: Length of side of square
-
+            size: Length of side of squre
         Raises:
             TypeError: if size not integar
             ValueError: if size is less than 0
@@ -19,4 +19,3 @@ class Square:
         if size < 0:
             raise ValueError('size must be >= 0')
         self.__size = size
-
