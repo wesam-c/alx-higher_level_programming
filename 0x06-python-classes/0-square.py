@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """square module"""
 
-class square:
+class Square:
     """defines square"""
     pass 
-    """The class doesn't have any attributes - pass statement is a placeholder for future code"""

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-class square:
+class Square:
     """class definition."""
 
     def __init__(self, size):
