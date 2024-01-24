@@ -3,4 +3,5 @@
 
 class square:
     """defines square"""
-    pass #The class doesn't have any attributes - pass statement is a placeholder for future code
+    pass 
+    """The class doesn't have any attributes - pass statement is a placeholder for future code"""

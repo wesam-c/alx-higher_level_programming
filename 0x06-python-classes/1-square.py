@@ -9,4 +9,5 @@ class square:
         args:
             size: of the square
         """
-        self.__size = size # The double underscore before size indicates it is a private variable.
+        self.__size = size
+        """The double underscore before size indicates it is a private variable."""
