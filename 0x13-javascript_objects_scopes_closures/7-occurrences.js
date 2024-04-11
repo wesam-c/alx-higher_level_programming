@@ -11,4 +11,6 @@ exports.nbOccurences = function (list, searchElement) {
     }
 
     return count;
+    /* another method : 
+    return list.reduce((a, v) => (v === searchElement ? a + 1 : a), 0); */
 };
