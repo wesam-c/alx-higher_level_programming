@@ -15,3 +15,5 @@ class State(Base):
     id = Column(Integer, primary_key=True, nullable=False,
             autoincrement=True, unique=True)
     name = Column(String(128), nullable=False)
+
+Base.metadata.create_all(engine)
