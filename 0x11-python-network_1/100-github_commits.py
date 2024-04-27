@@ -7,7 +7,8 @@ if __name__ == "__main__":
     user = sys.argv[2]
     repo = sys.argv[1]
     url = f'https://api.github.com/repos/{user}/{repo}/commits'
-    headers = {"Accept": "application/vnd.github.v3+json",
+    headers = {
+            "Accept": "application/vnd.github.v3+json",
             "X-GitHub-Api-Version": "2022-11-28",
             }
     response = requests.get(url, headers=headers)
